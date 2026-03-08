@@ -1,142 +1,277 @@
-# Personal Portfolio Website
+# 🌐 Personal Portfolio Website
 
-## Overview
+> A responsive **Personal Portfolio Website** developed to showcase my **skills, projects, and professional profile** as a **Java Full Stack Developer**.
+> This portfolio highlights my technical abilities, academic project experience, and provides an easy way for recruiters to contact me.
 
-This is a **personal portfolio website** developed to showcase my skills, projects, and professional information as a **Java Full Stack Developer**. The website includes sections for About Me, Skills, Projects, and Contact, allowing visitors or recruiters to learn more about my work and get in touch.
-
-The website is built using **HTML, CSS, and JavaScript** and includes a contact form that communicates with a backend service.
-
----
-
-## Author
-
-**Bhagyashree N**
-
-* Java Full Stack Developer
-* B.Tech in Computer Science and Engineering
-* GitHub: https://github.com/BhagyashreeNBijap
-* LinkedIn: https://www.linkedin.com/in/bhagyashreebijap/
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML-5-orange.svg" alt="HTML"/>
+  <img src="https://img.shields.io/badge/CSS-3-blue.svg" alt="CSS"/>
+  <img src="https://img.shields.io/badge/JavaScript-ES6-yellow.svg" alt="JavaScript"/>
+  <img src="https://img.shields.io/badge/Java-SpringBoot-red.svg" alt="Java"/>
+  <img src="https://img.shields.io/badge/Status-Complete-brightgreen.svg" alt="Status"/>
+  <img src="https://img.shields.io/badge/License-Personal-lightgrey.svg" alt="License"/>
+</p>
 
 ---
 
-## Features
+# 📋 Table of Contents
 
-* Responsive and modern portfolio design
-* About Me section with profile image
-* Skills section listing technical abilities
-* Project section describing academic project
-* Resume download link
-* Contact form with backend integration
-* Links to GitHub and LinkedIn profiles
+* Overview
+* Technology Stack
+* Project Structure
+* Features Implemented
+* Portfolio Sections
+* Installation
+* Running the Project
+* Contact Form Integration
+* Learning Outcomes
+* Project Status
+* Author
+* License
 
 ---
 
-## Technologies Used
+# 🔍 Overview
 
-### Frontend
+This project is a **personal portfolio website** designed to present my professional profile in a structured and visually appealing format.
 
-* HTML5
-* CSS3
-* JavaScript
+The website includes:
 
-### Backend (for Contact Form)
+* Professional introduction
+* Technical skills
+* Academic project details
+* Resume download
+* Contact form for recruiters
+* Links to LinkedIn and GitHub
+
+The goal of this portfolio is to create an **online professional presence** that can be shared with companies during the job application process.
+
+---
+
+# 🚀 Technology Stack
+
+| Component                  | Technology         |
+| -------------------------- | ------------------ |
+| **Frontend**               | HTML5              |
+| **Styling**                | CSS3               |
+| **Client-side Logic**      | JavaScript         |
+| **Backend (Contact Form)** | Java + Spring Boot |
+| **Version Control**        | Git                |
+| **Code Editor**            | VS Code            |
+| **Deployment Ready**       | GitHub             |
+
+---
+
+# 📁 Project Structure
+
+```
+Portfolio-Website/
+│
+├── index.html              # Main portfolio webpage
+├── bhagya img.jpeg         # Profile image
+├── README.md               # Project documentation
+│
+└── assets/ (optional)
+    ├── css/
+    ├── js/
+    └── images/
+```
+
+---
+
+# 📌 Features Implemented
+
+### 🎨 Responsive Portfolio Design
+
+* Clean and modern UI
+* Responsive layout for different screen sizes
+* Smooth navigation between sections
+
+### 👩‍💻 About Me Section
+
+* Personal introduction
+* Professional summary
+* Profile picture
+
+### 🧠 Skills Section
+
+Displays technical skills including:
 
 * Java
+* JavaScript
+* HTML
+* CSS
 * Spring Boot
-
-### Tools
-
-* Git
-* GitHub
-* Eclipse
-* VS Code
+* Hibernate
+* MySQL
+* Git & GitHub
+* AWS
 * Maven
+* Docker
+* Jenkins
+* Kubernetes
+* Terraform
 
----
+### 📂 Projects Section
 
-## Project Structure
+**Sharnbasva University Online Evaluation System**
 
-```
-portfolio
-│
-├── index.html
-├── bhagya img.jpeg
-└── README.md
-```
+Objective:
 
----
+A web-based system designed to digitalize the evaluation process for PhD students by reducing manual work and improving transparency.
 
-## Project Description
-
-### Sharnbasva University Online Evaluation System
-
-**Objective:**
-A web-based application designed to simplify and digitalize the evaluation process for PhD students. The system reduces manual work, saves time, and improves transparency.
-
-**Key Features**
+Key Features:
 
 * User management for faculty and PhD students
-* Thesis upload and secure storage
-* Three-level evaluation process (Mentor, HOD, Dean)
+* Thesis upload and storage
+* Three-level evaluation system
+
+  * Mentor
+  * HOD
+  * Dean
 * OTP-based result access
 
-**Technologies Used**
+Tech Stack:
 
-* Frontend: HTML, CSS, JavaScript
-* Backend: Java
+* HTML
+* CSS
+* JavaScript
+* Java
 
----
+My Role:
 
-## Contact Form
-
-The portfolio includes a contact form that sends user messages to a backend endpoint:
-
-```
-POST http://localhost:8080/contact
-```
-
-The form collects:
-
-* Name
-* Email
-* Message
-
-The data is sent using JavaScript `fetch()` API.
+* UI design
+* Frontend implementation
+* Backend integration
 
 ---
 
-## How to Run the Project
+# 🧭 Portfolio Sections
 
-1. Clone the repository
+| Section      | Description                         |
+| ------------ | ----------------------------------- |
+| **Home**     | Introduction and professional title |
+| **About Me** | Profile summary and resume link     |
+| **Skills**   | Technical skills and tools          |
+| **Projects** | Academic project description        |
+| **Contact**  | Contact form and social links       |
+
+---
+
+# 💻 Installation
+
+### Prerequisites
+
+To run this project locally you need:
+
+* A web browser (Chrome / Edge / Firefox)
+* Code editor (VS Code recommended)
+
+---
+
+### Step 1 – Clone the Repository
 
 ```
 git clone https://github.com/your-username/portfolio.git
 ```
 
-2. Open the project folder
-
-3. Run the project by opening `index.html` in a browser.
-
-4. To use the contact form, ensure a backend server is running at:
+### Step 2 – Open the Project
 
 ```
-http://localhost:8080/contact
+cd portfolio
+```
+
+### Step 3 – Run the Website
+
+Simply open the `index.html` file in a browser.
+
+```
+index.html → Right Click → Open with Browser
 ```
 
 ---
 
-## Resume
+# 📨 Contact Form Integration
 
-You can view my resume here:
+The portfolio includes a **contact form** where users can send messages.
 
-https://drive.google.com/file/d/1GRQ7JLgIZ4clJTCOw4jpYq5UpMmZhNAH/view
+Form fields include:
+
+* Name
+* Email
+* Message
+
+The form sends data using **JavaScript Fetch API** to a backend endpoint:
+
+```
+POST http://localhost:8080/contact
+```
+
+Example request body:
+
+```
+{
+  "name": "User Name",
+  "email": "user@email.com",
+  "message": "Hello, I would like to connect."
+}
+```
+
+If the request is successful, the user receives a confirmation message.
 
 ---
 
-## License
+# 🎯 Learning Outcomes
 
-This project is created for **personal portfolio and learning purposes**.
+By developing this project, I gained experience in:
+
+* Designing responsive web interfaces using **HTML and CSS**
+* Implementing **client-side interactivity with JavaScript**
+* Structuring clean and readable web code
+* Integrating **frontend forms with backend APIs**
+* Creating a **professional portfolio for recruiters**
+* Using **Git and GitHub for version control**
 
 ---
 
-© 2025 Bhagyashree N. All Rights Reserved.
+# 📈 Project Status
+
+| Component               | Status      |
+| ----------------------- | ----------- |
+| Portfolio UI Design     | ✅ Complete  |
+| Skills Section          | ✅ Complete  |
+| Project Section         | ✅ Complete  |
+| Resume Integration      | ✅ Complete  |
+| Contact Form            | ✅ Complete  |
+| Backend API Integration | 🟡 Optional |
+| Deployment              | 🟡 Ready    |
+
+---
+
+# 👩‍💻 Author
+
+**Bhagyashree N**
+
+Java Full Stack Developer
+
+GitHub
+https://github.com/BhagyashreeNBijap
+
+LinkedIn
+https://www.linkedin.com/in/bhagyashreebijap/
+
+Phone
+9901118482
+
+---
+
+# 📄 License
+
+This project is created for **personal portfolio and educational purposes**.
+
+---
+
+<p align="center">
+<b>Thank you for visiting my portfolio 🚀</b><br>
+<i>Designed and developed by Bhagyashree N</i>
+</p>
