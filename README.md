@@ -94,6 +94,7 @@ A web-based system developed to **digitalize the evaluation process for PhD stud
 * HTML
 * CSS
 * JavaScript
+* Spring Boot
 
 ---
 
